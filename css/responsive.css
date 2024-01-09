@@ -1,0 +1,40 @@
+@media all and (max-width: 1440px) {
+    #home-section-left {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    #home-section-left {
+        width: 55%;
+    }
+}
+
+@media all and (max-width: 1130px) {
+    #home-section-left {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    #home-section-left {
+        width: 35%;
+    }
+
+    #home-section-left > h1 {
+        font-size: 60px;
+    }
+
+    #home-section-left > h3 {
+        font-size: 18px;
+    }
+
+    #home-section-right > div {
+        height: 440px;
+        width: 340px;
+    }
+
+    #home-section-right > div > img {
+        width: 395px;
+    }
+}

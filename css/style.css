@@ -21,6 +21,10 @@
     justify-content: flex-end;
 }
 
+.align-self-start{
+    align-self: flex-start;
+}
+
 .relative {
     position: relative;
 }
@@ -29,10 +33,11 @@
     position: absolute;
 }
 
-body {
-    background-color: #e6ecef;
+.margin-0{
+    margin: 0;
 }
 
+/*========================================== animations =====================================*/
 .animated-icon {
     width: 60px;
     height: 60px;
@@ -58,10 +63,27 @@ body {
     }
 }
 
+/*================================ body ===========================================*/
+body {
+    background-color: #e6ecef;
+}
+
 /*================================ home ===========================================*/
 #home-section {
     width: 100%;
     height: max-content;
+}
+
+#home-section-left {
+    width: 50%;
+}
+
+#home-section-left>h1 {
+    font-size: 84px;
+}
+
+#home-section-left>h3 {
+    font-size: 28px;
 }
 
 #home-section-right {
