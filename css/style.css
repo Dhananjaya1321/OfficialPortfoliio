@@ -37,8 +37,25 @@ body {
     width: 60px;
     height: 60px;
     background-color: white;
-    box-shadow: 1px 2px 5px -2px #00000082;
+    box-shadow: 2px 3px 9px -6px #00000087;
     border-radius: 10px;
+    animation: upDown;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes upDown {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 /*================================ home ===========================================*/
