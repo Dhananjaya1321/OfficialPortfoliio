@@ -1,0 +1,65 @@
+/*================================ flex classes ===========================================*/
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-jc-end {
+    justify-content: flex-end;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+body {
+    background-color: #e6ecef;
+}
+
+.animated-icon {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 1px 2px 5px -2px #00000082;
+    border-radius: 10px;
+}
+
+/*================================ home ===========================================*/
+#home-section {
+    width: 100%;
+    height: max-content;
+}
+
+#home-section-right {
+    width: 460px;
+    height: 540px;
+    margin-top: 20px;
+}
+
+#home-section-right > div {
+    height: 475px;
+    width: 370px;
+    align-self: flex-end;
+    align-items: flex-end;
+    background-color: #007689;
+    border-top-right-radius: 159px;
+    border-top-left-radius: 425px;
+    border-bottom-left-radius: 127px;
+}
