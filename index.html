@@ -13,34 +13,37 @@
     <link rel="icon" href="./fevicon.png" sizes="any">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/responsive.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 <body>
 <main>
     <section id="home-section" class="flex flex-row f-wrap">
         <div id="home-section-left" class="flex f-col">
             <h3 class="margin-0 align-self-start">Hello, I'm</h3>
             <h1 class="margin-0 align-self-start">Isuru Dhananjaya</h1>
-            <h3 class="margin-0 align-self-start">A <span id="type-script"></span> from Sri Lanka</h3>
+            <h3 class="margin-0 align-self-start">A <span id="type-script" style="color: #007689;"></span> from Sri Lanka</h3>
         </div>
         <div id="home-section-right" class="flex flex-row f-jc-end relative">
             <div class="flex flex-row f-jc-end relative">
-                <img src="assets/img/sideImage.png">
-                <div style="left: -37px; bottom: 0; top: 50px; margin: auto;" class="flex absolute animated-icon">
-                    <img src="assets/icons/figma.png" width="50">
+                <img id="side-img" src="assets/img/sideImage.png">
+                <img id="front-img" src="assets/img/frontImage.png">
+                <div style="margin: auto;" class="flex absolute animated-icon">
+                    <img class="l-icon" src="assets/icons/figma.png">
                 </div>
-                <div style="top: -40px; left:-40px;" class="flex absolute animated-icon">
-                    <img src="assets/icons/java.png" width="50">
+                <div style="" class="flex absolute animated-icon">
+                    <img class="l-icon" src="assets/icons/java.png">
                 </div>
-                <div style="left: 70px; top: 110px; width: 50px; height: 50px;" class="flex absolute animated-icon">
-                    <img src="assets/icons/react.png" width="40">
+                <div style="" class="flex absolute animated-icon">
+                    <img class="s-icon" src="assets/icons/react.png">
                 </div>
                 <div style="top: 10px; right: -10px;" class="flex absolute animated-icon">
-                    <img src="assets/icons/spring.png" width="40">
+                    <img class="s-icon" src="assets/icons/spring.png">
                 </div>
-                <div style="bottom: -10px; right: 15px;" class="flex absolute animated-icon">
-                    <img src="assets/icons/bootstrap.png" width="50">
+                <div style="" class="flex absolute animated-icon">
+                    <img class="l-icon" src="assets/icons/bootstrap.png">
                 </div>
-                <div style="left: -65px; bottom: -25px; z-index: -1;" class="flex absolute">
+                <div class="flex absolute">
                     <img src="assets/icons/babuls.png">
                 </div>
             </div>
@@ -48,7 +51,7 @@
     </section>
 </main>
 <script src="js/jquery.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<script src="js/typeWriter.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
