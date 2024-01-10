@@ -44,10 +44,7 @@
     background-color: white;
     box-shadow: 2px 3px 9px -6px #00000087;
     border-radius: 10px;
-    animation: upDown;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+    animation: upDown 3s ease-in-out infinite;
     animation-delay: 1s;
 }
 
@@ -60,6 +57,35 @@
     }
     100% {
         transform: translateY(0);
+    }
+}
+
+#home-section-right > div {
+    animation: changeBorderRadius 10s ease-out infinite;
+}
+
+@keyframes changeBorderRadius {
+    0% {
+        border-top-right-radius: 159px;
+        border-top-left-radius: 425px;
+        border-bottom-left-radius: 127px;
+    }
+    33% {
+        border-top-right-radius: 500px;
+        border-top-left-radius: 311px;
+        border-bottom-left-radius: 500px;
+        /*background-color: #38c0ff;*/
+    }
+    66% {
+        border-top-right-radius: 1000px;
+        border-top-left-radius: 500px;
+        border-bottom-left-radius: 300px;
+        background-color: #1d232f;
+    }
+    100% {
+        border-top-right-radius: 159px;
+        border-top-left-radius: 425px;
+        border-bottom-left-radius: 127px;
     }
 }
 
@@ -92,11 +118,11 @@
     z-index: -1;
 }
 
-.s-icon{
+.s-icon {
     width: 40px;
 }
 
-.l-icon{
+.l-icon {
     width: 50px;
 }
 
