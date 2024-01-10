@@ -21,6 +21,14 @@
         width: 35%;
     }
 
+    #download-cv-btn {
+        width: 180px;
+    }
+
+    #home-section-right {
+        height: 480px;
+    }
+
     #home-section-left > h1 {
         font-size: 70px;
     }
@@ -44,6 +52,10 @@
         flex-direction: column-reverse;
     }
 
+    #bubble-img-1 {
+        display: none;
+    }
+
     #home-section-right {
         width: unset;
         height: 440px;
@@ -60,6 +72,14 @@
 
     #home-section-left > h3 {
         font-size: 28px;
+    }
+
+    #home-section-left > a {
+        justify-content: center;
+    }
+
+    #download-cv-btn {
+        align-self: center;
     }
 
     #home-section-right > div {
@@ -114,6 +134,11 @@
 @media all and (max-width: 500px) {
     #home-section-right {
         height: 350px;
+    }
+
+    #download-cv-btn {
+        width: 180px;
+        height: 40px;
     }
 
     #home-section-right > div {
