@@ -137,10 +137,12 @@ body {
     width: 100%;
     height: max-content;
 }
-#bubble-img-1{
+
+#bubble-img-1 {
     top: -40px;
     left: -40px;
 }
+
 #home-section-left {
     width: 50%;
 }
@@ -191,3 +193,52 @@ body {
 #front-img {
     display: none;
 }
+
+/*======================================== about section =======================================================*/
+#about-section {
+    margin-top: 40px;
+}
+
+#about-section > div {
+    justify-content: flex-start;
+    width: 80%;
+}
+
+#about-section-side-img {
+    width: 300px;
+}
+
+#about-section-bubble-img {
+    position: absolute;
+    left: -45px;
+    bottom: -40px;
+    z-index: -1;
+}
+
+#experience, #complete-projects {
+    width: 200px;
+    height: 100px;
+    gap: 20px;
+    padding-left: 20px;
+    box-shadow: 25px 0 65px rgb(0 0 0 / 22%);
+}
+
+#experience {
+    top: -45px;
+    left: -60px;
+}
+
+#complete-projects {
+    right: -100px;
+    bottom: 45px;
+}
+
+#experience > h1, #complete-projects > h1 {
+    font-size: 50px;
+}
+
+#experience > h2, #complete-projects > h2 {
+    text-align: start;
+    font-size: 18px;
+}
+
