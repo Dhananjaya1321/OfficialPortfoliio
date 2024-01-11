@@ -255,3 +255,36 @@ body {
     margin-top: 0;
 }
 
+/*================================================= works section ===============================================================*/
+#works-section {
+    margin-top: 35px;
+}
+
+#works-section > section {
+    width: 90%;
+    gap: 20px;
+}
+
+.project-left-side-img,
+.project-right-side-img {
+    width: 850px;
+    height: 400px;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+.project-left-side-img>img,
+.project-right-side-img>img {
+    width: 475px;    border-radius: 15px;
+
+}
+
+.project-right-side-img {
+    align-self: end;
+    justify-content: end;
+}
+
+.project-left-side-img {
+    align-self: start;
+    justify-content: flex-start;
+}
