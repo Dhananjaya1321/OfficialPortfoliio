@@ -279,6 +279,10 @@ body {
     width: 475px;
     border-radius: 15px;
 }
+.project-left-side-img > div>div,
+.project-right-side-img > div>div {
+    align-self: flex-start;
+}
 
 .project-right-side-img {
     align-self: end;
@@ -288,6 +292,45 @@ body {
 .project-left-side-img {
     align-self: start;
     justify-content: flex-start;
+    gap: 7px;
+}
+
+.project-description {
+    width: 460px;
+}
+
+.project-description > h3, .project-description > p {
+    align-self: flex-start;
+}
+
+.project-description > div > h4 {
+    margin: 0;
+}
+
+.project-description > div > p {
+    margin-top: 10px;
+}
+
+.project-description > div:last-child {
+    align-self: flex-start;
+    gap: 10px;
+}
+
+.project-description > div:last-child > a {
+    text-decoration: none;
+}
+
+.project-description > div:last-child > a > div > i {
+    font-size: 22px;
+}
+
+.project-links {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    /*background-color: #0083a1;*/
+    color: #0083a1;
+    border: 1px solid #0083a1;
 }
 
 #show-less, #show-all {
