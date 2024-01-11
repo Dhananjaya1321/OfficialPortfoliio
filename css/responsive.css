@@ -67,7 +67,7 @@
         width: 280px;
     }
 
-    #experience {
+    #complete-projects {
         left: -50px;
     }
 
@@ -152,6 +152,10 @@
         left: -225px;
         bottom: unset;
         top: -60px;
+    }
+
+    #about-section {
+        margin-top: 30px;
     }
 
     #about-section > div {
@@ -269,7 +273,8 @@
     #home-section-right > div > div:nth-child(3) {
         left: -20px;
     }
-    #complete-projects {
+
+    #experience {
         right: -75px;
     }
 }
@@ -294,7 +299,8 @@
     #home-section-left > h3 {
         font-size: 18px;
     }
-    #complete-projects {
+
+    #experience {
         right: -53px;
         bottom: 25px;
     }
