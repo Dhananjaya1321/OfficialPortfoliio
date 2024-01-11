@@ -8,11 +8,19 @@
     #home-section-left {
         width: 55%;
     }
+
+    #about-me {
+        width: 600px;
+    }
 }
 
 @media all and (max-width: 1130px) {
     #home-section-left {
         width: 50%;
+    }
+
+    #about-me {
+        width: 500px;
     }
 }
 
@@ -44,6 +52,44 @@
 
     #home-section-right > div > img {
         width: 395px;
+    }
+
+    #experience, #complete-projects {
+        width: 185px;
+        height: 90px;
+    }
+
+    #experience > h1, #complete-projects > h1 {
+        font-size: 40px;
+    }
+
+    #about-section-side-img {
+        width: 280px;
+    }
+
+    #experience {
+        left: -50px;
+    }
+
+    #about-section-bubble-img {
+        width: 255px;
+    }
+
+    #about-me {
+        width: 450px;
+        align-self: flex-end;
+    }
+}
+
+@media all and (max-width: 915px) {
+    #about-me {
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 840px) {
+    #about-me {
+        width: 350px;
     }
 }
 
@@ -107,6 +153,17 @@
         bottom: unset;
         top: -60px;
     }
+
+    #about-section > div {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    #about-me {
+        align-self: center;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 620px) {
@@ -153,6 +210,29 @@
         left: 40px;
         top: 75px;
     }
+
+    #about-section-side-img {
+        width: 200px;
+    }
+
+    #about-section-bubble-img {
+        width: 180px;
+    }
+
+    #experience, #complete-projects {
+        width: 140px;
+        height: 70px;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+    #experience > h1, #complete-projects > h1 {
+        font-size: 36px;
+    }
+
+    #experience > h2, #complete-projects > h2 {
+        font-size: 13px;
+    }
 }
 
 @media all and (max-width: 425px) {
@@ -189,6 +269,9 @@
     #home-section-right > div > div:nth-child(3) {
         left: -20px;
     }
+    #complete-projects {
+        right: -75px;
+    }
 }
 
 @media all and (max-width: 375px) {
@@ -210,5 +293,9 @@
 
     #home-section-left > h3 {
         font-size: 18px;
+    }
+    #complete-projects {
+        right: -53px;
+        bottom: 25px;
     }
 }
