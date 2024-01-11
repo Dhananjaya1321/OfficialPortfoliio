@@ -267,16 +267,17 @@ body {
 
 .project-left-side-img,
 .project-right-side-img {
-    width: 850px;
+    box-shadow: -4px 4px 10px -6px rgb(0 0 0 / 22%);
+    width: 950px;
     height: 400px;
     background: #ffffff;
     border-radius: 15px;
 }
 
-.project-left-side-img>img,
-.project-right-side-img>img {
-    width: 475px;    border-radius: 15px;
-
+.project-left-side-img > img,
+.project-right-side-img > img {
+    width: 475px;
+    border-radius: 15px;
 }
 
 .project-right-side-img {
@@ -287,4 +288,27 @@ body {
 .project-left-side-img {
     align-self: start;
     justify-content: flex-start;
+}
+
+#show-less, #show-all {
+    width: 100%;
+    gap: 20px;
+}
+
+#show-all {
+    display: none;
+}
+
+#show-less-btn {
+    display: none;
+}
+
+#show-all-btn, #show-less-btn {
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    background-color: #0083a1;
+    color: white;
 }

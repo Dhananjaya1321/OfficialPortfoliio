@@ -18,3 +18,31 @@ document.addEventListener('DOMContentLoaded', function () {
     style.innerHTML = `body::-webkit-scrollbar {display: none;}`;
     document.head.appendChild(style);
 });
+
+
+/*================================ my works ======================================*/
+$("#show-all-btn").click(function () {
+    $("#show-all").css("display","flex");
+    $("#show-less-btn").css("display","block");
+    $("#show-all-btn").css("display","none");
+});
+
+$("#show-less-btn").click(function () {
+    $("#show-all").css("display","none");
+    $("#show-less-btn").css("display","none");
+    $("#show-all-btn").css("display","block");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
