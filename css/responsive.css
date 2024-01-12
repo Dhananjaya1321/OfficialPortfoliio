@@ -371,6 +371,10 @@
     #experience > h2, #complete-projects > h2 {
         font-size: 13px;
     }
+
+    #header>menu{
+        display: none;
+    }
 }
 
 @media all and (max-width: 425px) {

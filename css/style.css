@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /*================================ flex classes ===========================================*/
 .flex {
     display: flex;
@@ -132,8 +136,38 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*================================ header ===========================================*/
+#header {
+    justify-content: space-between;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 50;
+    transition: background-color 0.3s ease;
+}
+
+#header.scrolled {
+    background-color: white;
+    box-shadow: 0 0 7px -4px black;
+}
+
+menu > a {
+    text-decoration: none;
+}
+
+menu > a > li {
+    list-style: none;
+    display: block;
+    margin: 0 20px;
+    color: black;
+}
+
 /*================================ home ===========================================*/
 #home-section {
+    position: relative;
+    top: 60px;
     width: 100%;
     height: max-content;
 }
@@ -385,17 +419,31 @@ body {
     margin: 0 20px;
 }
 
-.service > div >p{
+.service > div > p {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #798b8d;
 }
 
 .service > div > h3 {
-    margin-top: 0;
+    margin-top: 5px;
 }
 
 .service-icon {
     width: 50px;
-    margin: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
+
+/*======================================= footer ==========================================*/
+#footer {
+    margin-top: 30px;
+    height: 60px;
+    background: #00171cbd;
+    color: white;
+}
+
+#footer > small {
+    font-size: 14px;
+}
+

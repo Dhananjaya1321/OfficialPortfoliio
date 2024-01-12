@@ -19,6 +19,15 @@
     <link rel="stylesheet" href="assets/fontawesome-free-6.4.0-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <body>
+<header id="header" class="flex flex-row">
+    <img src="fevicon.png" width="50">
+    <menu class="flex-row flex">
+        <a href="#home-section"><li>Home</li></a>
+        <a href="#about-section"><li>About</li></a>
+        <a href="#works-section"><li>Works</li></a>
+        <a href="#services-section"><li>Services</li></a>
+    </menu>
+</header>
 <main>
     <section id="home-section" class="flex flex-row f-wrap">
         <div id="bubble-img-1" class="flex absolute">
@@ -349,7 +358,7 @@
     </section>
     <section id="services-section" class="flex f-col">
         <h1 style="margin-bottom: 2px;">Services</h1>
-        <p style="margin-top: 0; margin-bottom: 30px">I specialize in providing the highest level of services to meet your various
+        <p style="margin-top: 0; margin-bottom: 30px; font-size: 14px">I specialize in providing the highest level of services to meet your various
             business needs.</p>
         <section class="flex flex-row f-wrap">
             <div class="service">
@@ -370,7 +379,7 @@
                 </div>
             </div>
             <div class="service">
-                <img class="service-icon" src="assets/icons/mobile.png">
+                <img style="margin-left: 10px;" class="service-icon" src="assets/icons/mobile.png">
                 <div>
                     <h3>Mobile application Development</h3>
                     <p>Stay ahead in the mobile era with my innovative mobile applications.
@@ -399,6 +408,9 @@
         </section>
     </section>
 </main>
+<footer id="footer" class="flex">
+    <small>Design and Develop by Isuru Dhananjaya - ©2024</small>
+</footer>
 <script src="js/jquery.js"></script>
 <script src="js/typeWriter.js"></script>
 <script src="js/app.js"></script>
