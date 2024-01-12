@@ -279,8 +279,9 @@ body {
     width: 475px;
     border-radius: 15px;
 }
-.project-left-side-img > div>div,
-.project-right-side-img > div>div {
+
+.project-left-side-img > div > div,
+.project-right-side-img > div > div {
     align-self: flex-start;
 }
 
@@ -358,4 +359,43 @@ body {
 
 .project-right-side-img {
     flex-direction: row-reverse;
+}
+
+/*=================================== service section ====================================================*/
+#services-section > section {
+    width: 80%;
+    gap: 20px;
+}
+
+.service {
+    width: 300px;
+    height: 290px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 9px -6px #798b8d;
+    /*border: 1px solid #9E9E9E;*/
+    transition: box-shadow 1s ease;
+}
+
+.service:hover {
+    box-shadow: 0 0 15px #CAD3D5;
+}
+
+.service > div {
+    margin: 0 20px;
+}
+
+.service > div >p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #798b8d;
+}
+
+.service > div > h3 {
+    margin-top: 0;
+}
+
+.service-icon {
+    width: 50px;
+    margin: 10px;
 }
