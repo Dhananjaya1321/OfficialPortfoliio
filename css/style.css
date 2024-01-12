@@ -355,3 +355,7 @@ body {
     background-color: #0083a1;
     color: white;
 }
+
+.project-right-side-img {
+    flex-direction: row-reverse;
+}
