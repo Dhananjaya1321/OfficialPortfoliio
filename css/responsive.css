@@ -375,6 +375,10 @@
     #header>menu{
         display: none;
     }
+    #services-section>p{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
 }
 
 @media all and (max-width: 425px) {

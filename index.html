@@ -27,14 +27,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome-free-6.4.0-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <body id="body">
 <header id="header" class="flex flex-row">
     <img src="fevicon.png" width="50">
     <menu class="flex-row flex">
-        <a href="#home-section"><li>Home</li></a>
-        <a href="#about-section"><li>About</li></a>
-        <a href="#works-section"><li>Works</li></a>
-        <a href="#services-section"><li>Services</li></a>
+        <a href="#home-section">
+            <li>Home</li>
+        </a>
+        <a href="#about-section">
+            <li>About</li>
+        </a>
+        <a href="#works-section">
+            <li>Works</li>
+        </a>
+        <a href="#services-section">
+            <li>Services</li>
+        </a>
     </menu>
 </header>
 <main>
@@ -55,7 +64,7 @@
         <div id="home-section-right" class="flex flex-row f-jc-end relative">
             <div class="flex flex-row f-jc-end relative">
                 <img id="side-img" src="assets/img/sideImage.png">
-                <img id="front-img" src="assets/img/frontImage.png">
+                <img id="front-img" src="assets/img/newPhoto.png">
                 <div style="margin: auto;" class="flex absolute animated-icon">
                     <img class="l-icon" src="assets/icons/figma.png">
                 </div>
@@ -113,9 +122,9 @@
         <section class="flex f-col">
             <div id="show-less" class="flex f-col">
                 <div class="project-left-side-img flex flex-row f-wrap">
-                    <img src="assets/img/socialMediaApplication.png">
+                    <img data-aos="zoom-in" src="assets/img/socialMediaApplication.png">
                     <div class="project-description flex f-col">
-                        <h3>Social Media Application (MindUp)</h3>
+                        <h3>Social Media Application</h3>
                         <div>
                             <h4>Description</h4>
                             <p>The social media platform can share and react to posts, follow pages
@@ -141,7 +150,7 @@
                     </div>
                 </div>
                 <div class="project-right-side-img flex flex-row f-wrap">
-                    <img src="assets/img/rentalCarSystem.png">
+                    <img data-aos="zoom-in" src="assets/img/rentalCarSystem.png">
                     <div class="project-description flex f-col">
                         <h3>Car Rental System</h3>
                         <div>
@@ -171,7 +180,7 @@
                     </div>
                 </div>
                 <div class="project-left-side-img flex flex-row f-wrap">
-                    <img src="assets/img/tableReservationSystem.png">
+                    <img data-aos="zoom-in" src="assets/img/tableReservationSystem.png">
                     <div class="project-description flex f-col">
                         <h3>Table Reservation System</h3>
                         <div>
@@ -199,7 +208,7 @@
                     </div>
                 </div>
                 <div class="project-right-side-img flex flex-row f-wrap">
-                    <img src="assets/img/medicare.png">
+                    <img data-aos="zoom-in" src="assets/img/medicare.png">
                     <div class="project-description flex f-col">
                         <h3>Medicare Mobile Application</h3>
                         <div>
@@ -228,7 +237,7 @@
             </div>
             <div id="show-all" class="flex f-col">
                 <div class="project-left-side-img flex flex-row f-wrap">
-                    <img src="assets/img/travelAgancy.png">
+                    <img data-aos="zoom-in" src="assets/img/travelAgancy.png">
                     <div class="project-description flex f-col">
                         <h3>Travel Agency Website</h3>
                         <div>
@@ -254,7 +263,7 @@
                     </div>
                 </div>
                 <div class="project-right-side-img flex flex-row f-wrap">
-                    <img src="assets/img/futureEyeAcademy.png">
+                    <img data-aos="zoom-in" src="assets/img/futureEyeAcademy.png">
                     <div class="project-description flex f-col">
                         <h3>Future Eye Academy Website</h3>
                         <div>
@@ -280,7 +289,7 @@
                     </div>
                 </div>
                 <div class="project-left-side-img flex flex-row f-wrap">
-                    <img src="assets/img/portfolio.png">
+                    <img data-aos="zoom-in" src="assets/img/portfolio.png">
                     <div class="project-description flex f-col">
                         <h3>My First Portfolio Website</h3>
                         <div>
@@ -305,7 +314,7 @@
                     </div>
                 </div>
                 <div class="project-right-side-img flex flex-row f-wrap">
-                    <img src="assets/img/hostel.png">
+                    <img data-aos="zoom-in" src="assets/img/hostel.png">
                     <div class="project-description flex f-col">
                         <h3>Hostel Management System</h3>
                         <div>
@@ -333,7 +342,7 @@
                     </div>
                 </div>
                 <div class="project-left-side-img flex flex-row f-wrap">
-                    <img src="assets/img/spaceShootingGame.png">
+                    <img data-aos="zoom-in" src="assets/img/spaceShootingGame.png">
                     <div class="project-description flex f-col">
                         <h3>2D shooting mini game</h3>
                         <div>
@@ -358,7 +367,7 @@
                     </div>
                 </div>
                 <div class="project-right-side-img flex flex-row f-wrap">
-                    <img src="assets/img/salon.png">
+                    <img data-aos="zoom-in" src="assets/img/salon.png">
                     <div class="project-description flex f-col">
                         <h3>Salon Management System</h3>
                         <div>
@@ -394,10 +403,10 @@
     </section>
     <section id="services-section" class="flex f-col">
         <h1 style="margin-bottom: 2px;">Services</h1>
-        <p style="margin-top: 0; margin-bottom: 30px; font-size: 14px; text-align: center; margin-right: 5px;margin-left: 5px;">I specialize in providing the highest level of services to meet your various
+        <p>I specialize in providing the highest level of services to meet your various
             business needs.</p>
         <section class="flex flex-row f-wrap">
-            <div class="service">
+            <div data-aos="fade-up" class="service">
                 <img class="service-icon" src="assets/icons/web.png">
                 <div>
                     <h3>Web Application Development</h3>
@@ -406,7 +415,7 @@
                         we develop solutions that seamlessly integrate with your business processes.</p>
                 </div>
             </div>
-            <div class="service">
+            <div data-aos="fade-up" class="service">
                 <img class="service-icon" src="assets/icons/enterprise.png">
                 <div>
                     <h3>Enterprise Application Development</h3>
@@ -414,7 +423,7 @@
                         solutions that optimize workflows, foster collaboration, and enhance overall efficiency.</p>
                 </div>
             </div>
-            <div class="service">
+            <div data-aos="fade-up" class="service">
                 <img style="margin-left: 10px;" class="service-icon" src="assets/icons/mobile.png">
                 <div>
                     <h3>Mobile application Development</h3>
@@ -423,7 +432,7 @@
                         resonate with your target audience.</p>
                 </div>
             </div>
-            <div class="service">
+            <div data-aos="fade-up" class="service">
                 <img class="service-icon" src="assets/icons/pos.png">
                 <div>
                     <h3>POS Application Development </h3>
@@ -432,7 +441,7 @@
                         transactional experience.</p>
                 </div>
             </div>
-            <div class="service">
+            <div data-aos="fade-up" class="service">
                 <img class="service-icon" src="assets/icons/uiux.png">
                 <div>
                     <h3>UI/UX Designs</h3>
@@ -447,6 +456,11 @@
 <footer id="footer" class="flex">
     <small>Design and Develop by Isuru Dhananjaya - ©2024</small>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 <script src="js/typeWriter.js"></script>
 <script src="js/app.js"></script>
 </body>
