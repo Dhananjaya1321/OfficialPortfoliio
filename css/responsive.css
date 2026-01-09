@@ -58,9 +58,7 @@
         width: 340px;
     }
 
-    #home-section-right > div > img {
-        width: 395px;
-    }
+
 
     #experience, #complete-projects {
         width: 185px;
@@ -147,6 +145,11 @@
 }
 
 @media all and (max-width: 768px) {
+    #home-section-right > div > div:nth-child(5) {
+        left: 70px;
+        top: 110px;
+    }
+
     #home-section {
         flex-direction: column-reverse;
     }
